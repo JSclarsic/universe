@@ -1,0 +1,63 @@
+p {
+  color: black;
+  width: 500px;
+  
+}
+
+/* creating a background image on the margins of the page - this was hard to figure out! */
+html {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+
+/* Creating a body section*/
+body { 
+  width: 1000px;
+  margin: 0 auto;
+  background-color:#F5FFFA;
+  padding: 0 20px 20px 20px;
+  border: 2px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* For centering objects on the page */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/*List styles, particularly for buttons */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
